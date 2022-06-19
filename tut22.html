@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesude selectors and more design</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(192, 243, 141);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            color: rgb(63, 14, 24);
+            background-color: antiquewhite;
+        }
+        a:visited{
+            background-color: yellow;
+
+        }
+        a:active{
+            background-color: blue;
+
+        }
+        .btn{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color: yellow;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: yellow;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, deleniti incidunt. Fugiat atque officiis est eligendi beatae vero facere dolorum, necessitatibus adipisci id accusantium voluptatum commodi ad saepe ex unde dolores exercitationem doloremque quos?</p>
+        <a href="https://google.com" class="btn">read more</a>
+        <button class="btn">contact us</button>
+
+
+    </div>
+    
+</body>
+</html>

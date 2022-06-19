@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            margin: auto;
+            width: 18%;
+           
+        }
+        img{
+            margin: top;
+            width: 325px;
+        }
+        h3{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+        }
+        .box{
+            border:  4px solid black;
+            background-color: grey;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        .Facebook{
+            width: 200px;
+            border: 4px solid grey;
+            background-color: blue;
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+
+        }
+        .instagram{ 
+            width: 200px;
+            border: 4px solid grey;
+            background-color: hotpink;
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+      
+        }
+        .Youtube{
+            width: 200px;
+            border: 4px solid grey;
+            background-color:red;
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+            
+        }
+        .Twitter{
+            width: 200px;
+            border: 4px solid grey;
+            background-color:skyblue;
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+            
+        }
+        .Amazon{
+            width: 200px;
+            border: 4px solid grey;
+            background-color: darkorange;
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+            
+        }
+        .Flipkart{
+            width: 200px;
+            border: 4px solid grey;
+            background-color: rgb(227, 243, 7);
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+            
+        }
+        .Swiggy{
+            width: 200px;
+            border: 4px solid grey;
+            background-color: rgb(223, 10, 127);
+            float: left;
+            margin: 4px;
+            padding: 24px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+            
+        }
+        .read{
+            text-align: end;
+            width: 80px;
+            height: 5px;
+        }
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+           
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;            
+        }
+        .navbar li a:hover{
+            color:red;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+
+        }
+        .navbar input{
+            border: 2px solid black;
+           border-radius: 14px;
+           padding: 3px 17px;
+           width: 129px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://i.ytimg.com/vi/l-A94EhOotU/maxresdefault.jpg" alt="">
+        <h3>Welcome to adi's programming</h3>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search website">
+            </div>
+        </ul>
+    </nav>
+    <H1>Apps</H1>
+    <div class="container" >
+        <div class="Facebook">
+            <h4 class="heading">Facebook</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button><a href="https://facebook.com">Open app</a></button>
+            
+        </div>
+        <div class="instagram">
+            <h4 class="heading">Instagram</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button><a href="https://instagram.com"> open app</a></button>
+            
+        </div>
+        <div class="Youtube">
+            <h4 class="heading">Youtube</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button> <a href="https://youtube.com">open app</a></button>
+           
+        </div>
+        <div class="Twitter">
+            <h4 class="heading">Twitter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button> <a href="https://twitter.com"> open app</a></button>
+           
+        </div>
+        <div class="Amazon">
+            <h4 class="heading">Amazon</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button><a href="https://Amazon.com"> open app</a></button>
+            
+        </div>
+        <div class="Flipkart">
+            <h4 class="heading">Flipkart</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button><a href="https://Flipkart.com"> open app</a></button>
+        </div>
+        <h1>Nwespaper</h1>
+        <div class="Swiggy">
+            <h4 class="heading">Swiggy</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perspiciatis fugiat vel facilis tempore! Dolore maiores iusto deleniti, voluptatibus cumque voluptates, autem, unde debitis eos cum ea repellendus eius amet. Quibusdam necessitatibus consectetur eveniet, atque doloribus molestias quo quaerat similique, ducimus voluptatibus, alias id.</p>
+            <button><a href="https://Swiggy.com"> open app</a></button>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
